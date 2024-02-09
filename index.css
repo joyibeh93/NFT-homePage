@@ -126,7 +126,7 @@ header,
 }
 
 .main-image {
-    width: 100%;
+    /* width: 100%; */
     display: block;
     max-width:650px;
     margin: 0 auto 2em;
@@ -135,12 +135,15 @@ header,
 
 .section-two-image-container {
     display: flex;
-    flex-direction: column;
-    margin-bottom: 1em;
+    flex-wrap: wrap;
+    gap:1em;
+
  
 }
 
 .feature-image {
+    flex-basis: 220px;
+    flex-grow: 1;
     border-radius: 4.6px;
     margin-bottom: 1em;
 }
